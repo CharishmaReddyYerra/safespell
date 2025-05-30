@@ -91,51 +91,6 @@ The frontend will be available at `http://localhost:3000`
 4. Open `http://localhost:3000` in your browser
 5. Start analyzing text for harmful language patterns!
 
-## How to Push to GitHub using GitHub Desktop
-
-1.  **Open GitHub Desktop.**
-2.  If you haven't already, **add your local repository** to GitHub Desktop:
-    -   Click on "File" > "Add Local Repository..."
-    -   Choose the path to your `SAFESPELL` project folder.
-3.  **Commit Changes:**
-    -   GitHub Desktop will automatically detect any changes you've made to the files.
-    -   In the "Changes" tab (usually on the left), you'll see a list of modified, added, or deleted files.
-    -   Select the files you want to include in the commit. It's good practice to commit related changes together.
-    -   Enter a concise and descriptive **commit summary** in the text box at the bottom left (e.g., "Create initial project structure" or "Add README.md").
-    -   You can also add a more detailed **description** if needed.
-    -   Click the "Commit to `main`" (or your current branch name) button.
-4.  **Push to GitHub:**
-    -   After committing, you'll see a "Push origin" button at the top of the GitHub Desktop window (or in the "Repository" menu).
-    -   Click this button to upload your local commits to the remote repository on GitHub.
-
-## Sample Input Examples to Test
-
-You can test SAFESPELL with various text inputs. Here are a few examples that might contain manipulative language:
-
-1.  **Gaslighting Example:**
-    ```
-    Person A: I felt really uncomfortable when you said that yesterday.
-    Person B: I never said that. You're always imagining things and being too sensitive.
-    ```
-
-2.  **Coercion/Guilt-Tripping Example:**
-    ```
-    Person A: I'm not sure I want to go out tonight.
-    Person B: If you really cared about me, you would come. I guess I'll just go alone then and be miserable.
-    ```
-
-3.  **Minimizing/Invalidating Example:**
-    ```
-    Person A: That comment you made about my project in front of everyone was really embarrassing.
-    Person B: Oh, come on, I was just joking! You can't take a little teasing? It's not a big deal.
-    ```
-
-4.  **Blame-Shifting Example:**
-    ```
-    Person A: We need to talk about how the bills are piling up.
-    Person B: Well, if you didn't spend so much on your hobbies, maybe we wouldn't have this problem. It's really your fault.
-    ```
-
 ## API Endpoints
 
 -   `POST /analyze` - Analyze text for harmful content
