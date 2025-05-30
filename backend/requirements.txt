@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+# Removed openai dependency as we're using Ollama now
+# pydantic is a dependency of fastapi, but explicitly listing it can be good practice
+pydantic
+# For Ollama API requests (async)
+aiohttp>=3.8.0
+
+# For later Hugging Face integration, you might add:
+# transformers
+# torch
+# accelerate
+
+python-multipart==0.0.6
+requests==2.31.0
